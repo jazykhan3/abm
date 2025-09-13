@@ -67,11 +67,11 @@ const HeroSection = () => {
               </p>
 
               {/* Button and Small Image */}
-              <div className="flex flex-col sm:flex-row items-center sm:items-start lg:justify-between gap-6 sm:gap-20 lg:gap-6 xl:gap-8 nest-hub-button-area">
+              <div className="w-full flex flex-col sm:flex-row items-center sm:items-start  lg:justify-between gap-6 sm:gap-20 lg:gap-6 xl:gap-8 nest-hub-button-area">
                 <button
                   type="button"
                   onClick={openModalFromGetStarted}
-                  className="flex items-center bg-[#68EF78] hover:bg-[#68EF78] text-[#1D1B1D] text-[16px] lg:text-[18px] font-semibold px-4 py-2 lg:px-6 lg:py-2 rounded-full font-nunito max-w-[180px] lg:max-w-[220px] w-full sm:w-auto"
+                  className="flex items-center  bg-[#68EF78] hover:bg-[#68EF78] text-[#1D1B1D] text-[16px] lg:text-[18px] font-semibold px-4 py-2 lg:px-6 lg:py-2 rounded-full font-nunito max-w-[180px] lg:max-w-[220px] w-full sm:w-auto "
                 >
                   <span className="pl-2">Get Started</span>
                   <div className="flex items-center justify-center bg-white rounded-full w-10 h-10 lg:w-12 lg:h-12 ml-3">
